@@ -1,0 +1,14 @@
+Список предметов:
+GET http://localhost:8080/items.php
+
+Создать обмен:
+POST http://localhost:8080/trades.php?action=create
+
+makefile:
+
+item_id: 1
+from_user: 1
+to_user: 2
+
+Список обменов:
+GET http://localhost:8080/trades.php?action=list
