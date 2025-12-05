@@ -16,3 +16,7 @@
 
 Сайт запускается на localhost:8888
 
+Чтобы запустить тесты надо ввести в консоль команды:
+
+1 - docker cp testing.php game-trade-web:/var/www/html/testing.php
+2 - docker exec -it game-trade-web php testing.php
